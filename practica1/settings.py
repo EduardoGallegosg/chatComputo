@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-t-lm)-)g*1+!*wlq7hn#!zy)7ehu*+e!pt6t@$#bk7tau8_ffi
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['chatComputo.azurewebsites.net']
+ALLOWED_HOSTS = [
+    'chatComputo.azurewebsites.net',
+    'localhost',
+    '127.0.0.1',
+    ]
 
 
 # Application definition
