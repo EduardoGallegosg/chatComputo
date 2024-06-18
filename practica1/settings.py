@@ -31,6 +31,9 @@ ALLOWED_HOSTS = [
     '127.0.0.1',
     ]
 
+CSFR_TRUSTED_ORIGINS = [
+    'https://chatcomputo.azurewebsites.net',
+]
 
 # Application definition
 
