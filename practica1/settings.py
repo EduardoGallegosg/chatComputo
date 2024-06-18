@@ -32,7 +32,7 @@ ALLOWED_HOSTS = [
     ]
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://chatcomputo.azurewebsites.net',
+    'https://chatcomputo.azurewebsites.net'
 ]
 
 # Application definition
