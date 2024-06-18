@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-t-lm)-)g*1+!*wlq7hn#!zy)7ehu*+e!pt6t@$#bk7tau8_ffi
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'chatComputo.azurewebsites.net',
+    'chatcomputo.azurewebsites.net',
     'localhost',
     '127.0.0.1',
     ]
