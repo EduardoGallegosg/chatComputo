@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostrar Mensajes</title>
+    <style>
+        .persona {
+            font-weight: bold;
+        }
+        .carrera {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Mensajes</h1>
+
+    {% for mensaje in mensajes %}
+            
+        <h2>ID: {{mensaje.id}}</h2>
+        <h2>Mensaje: {{mensaje.txt_mensaje}}</h2>
+        <h2 class="persona">Persona: {{ mensaje.persona.nombre }} {{ mensaje.persona.ap_pat }} {{ mensaje.persona.ap_mat }}</h2>  
+        <h2 class="carrera">Carrera: {{ mensaje.persona.carrera.nombre }}</h2>
+            
+    {% endfor %}
+
+</body>
+</html>
+
+
